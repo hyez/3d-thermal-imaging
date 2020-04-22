@@ -9,7 +9,7 @@ import trimesh
 import numpy as np
 
 if __name__ == '__main__':
-    mesh = trimesh.load('../models/featuretype.STL')
+    mesh = trimesh.load('./models/featuretype.STL')
 
     # get edges we want to highlight by finding edges
     # that have sharp angles between adjacent faces
